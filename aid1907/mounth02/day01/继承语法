@@ -1,0 +1,6 @@
+class Mycar(Car):
+    def __init__(self,name,speed,weight,num,day):
+        super().__init__(name,speed,weight,num)
+        self.day=day
+注意是super().__init__(没有self，直接写父类变量)
+super是超类，继承父类的意思
