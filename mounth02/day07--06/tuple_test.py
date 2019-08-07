@@ -1,0 +1,12 @@
+tuple01=(1,2)
+tuple02=(1,2,3)
+print(tuple01,tuple02)
+print(tuple02.index(2))
+'''找到字符开始位置'''
+print(tuple02.count(2))
+'''统计字符出现次数'''
+list01=[3,4]
+tuple03=(1,2,list01)
+list01[0]=5
+print(tuple03)
+'''不可变容器中可变部分可以改变'''

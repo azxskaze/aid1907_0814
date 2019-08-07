@@ -8,11 +8,9 @@ while True:
 print(''.join(list01))
 
 
-a=1
-b=1
-print(a)
+fibs=[0,1]
 for i in range(15):
-    a,b=b,b+a
-    print(a)
+    fibs.append(fibs[i]+fibs[i+1])
+print(fibs)
 
 
