@@ -10,13 +10,17 @@ shnag_pin_info = {
 def shopping():
     while True:
         print('*'*12,'\n','商店','\n','*'*12,'\n','按1购买\n按2结算','\n','*'*12,sep='')
+
         key=int(input(':'))
+
         if key==1:
             show(shnag_pin_info)
             buying(gou_wu_che, shnag_pin_info)
         elif key==2:
             print('*'*12,'\n','购物车','\n','*'*12,sep='')
+
             show_gou_wu_che()
+
             return paying()
 def paying():
     money = float(input('请输入金额：'))
@@ -55,3 +59,4 @@ def show(shnag_pin_info):
             print(i, end=' ')
         print()
 shopping()
+max

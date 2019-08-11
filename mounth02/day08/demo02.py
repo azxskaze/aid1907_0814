@@ -94,8 +94,9 @@ fun07(10,20)
 '''要求定义一个函数 函数中包含位置形参，星号元祖
 形参默认形参，命名关键字形参和双星号字典形参'''
 '''定义一个函数 接受任意的参数 并输出结果'''
-def fun08(a,*args,b=4,d,**kwargs):
+def fun08(a,c=2,*args,b=4,d,**kwargs):
     print(a)
+    print(c)
     print(b)
     print(args)
     print(d)
