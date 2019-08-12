@@ -1,6 +1,8 @@
 import random
 import time
-def big_number_add(num01,num02):
+from functools import reduce
+from big_number_add import big_number_add
+def big_number_m(num01,num02):
     global str_num01, str_num02, str_num03, num00, num0, max_len
     str_num01 = str(num01)
     str_num02 = str(num02)
@@ -37,19 +39,20 @@ def add_to_no3():
             str_num03 += str(num00)
         str_num03=' '*(max_len-1-m)+str_num03
         list01.append(str_num03)
-        n=reduce(big_number_add(list01[i],list01[i+1]))
-        return  loc          True
-                                                                                                                           True
-    print(list01)
-    # for item in list01:
+        n=reduce(big_number_add,list01)
+        return  n
+
+    # print(list_info)
+    # for item in list_info:
     #     '''等待'''
-    return str_num03
+    # return str_num03
 # num01 = float(input('请输入大整数1：'))
 # num02 = float(input('请输入大整数2：'))
 # f1=open('','r')
 # f10=f1.readlines()
 # f2=open('','r')
 # f20=f2.readlines()
+
 time0=time.time()
 num01=''
 for i in range(random.randint(600,700)):
@@ -57,9 +60,11 @@ for i in range(random.randint(600,700)):
 num02=''
 for i in range(random.randint(600,700)):
     num02+=str(random.randint(0,9))
+b=int(num01)*int(num02)
+print(len(str(b)),b)
+result=big_number_m(num01,num02)
 
-
-result=big_number_add(num01,num02)
 time2=time.time()
+
 print(len(str(result)),result,sep=' ')
 print(time2-time0)

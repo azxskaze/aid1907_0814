@@ -13,7 +13,7 @@ def matrix_change(list):
     #     length.append(len(x))
     # # max_length = max(length)
     # for y in range(max_length):
-    #     list01.append([])
+    #     list_info.append([])
     for i in range(len(list)):
         list01.append([])
         for j in range(len(list)):

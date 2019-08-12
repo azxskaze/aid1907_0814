@@ -5,7 +5,7 @@ import copy
 深拷贝会把对象复制一遍给新列表
 见图'''
 list01=['s','b','c',[1,2]]
-# list02=list01
+# list02=list_info
 list02=list01[:]
 list03=list01
 list01[0]='8'
@@ -14,6 +14,6 @@ list03[2]=list01[2]
 list03[2]=[]
 print(list01,list02,list03)
 
-# list02=copy.deepcopy(list01)
-# list01[0]='c'
-# print(list01,list02)
+# list02=copy.deepcopy(list_info)
+# list_info[0]='c'
+# print(list_info,list02)

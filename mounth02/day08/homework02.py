@@ -31,7 +31,7 @@ print(my_sum(list01))
 
 def my_insert(list,count,chr):
     list.append([])
-    # print(list01[len(list01)-1])
+    # print(list_info[len(list_info)-1])
     for i in range(len(list)-1,-1,-1):
         if i > count:
             list[i],list[i-1]=list[i-1],list[i]

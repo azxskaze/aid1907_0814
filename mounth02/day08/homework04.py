@@ -21,18 +21,20 @@ def shopping():
 
             show_gou_wu_che()
 
-            return paying()
+            paying()
 def paying():
-    money = float(input('请输入金额：'))
     sum = 0
     for key in gou_wu_che:
         sum += float(gou_wu_che[key][0]) * float(gou_wu_che[key][1])
-    if money > sum:
-        print('应找回%.1f' % (money - sum))
-        return 0
-    else:
-        print('金额不足')
-        return 0
+    print('')
+    money = float(input(',请输入金额：'))
+    while True:
+        if money < sum:
+            print('金额不足')
+        else:
+            print('应找回%.1f' % (money - sum))
+            gou_wu_che.clear()
+            break
 def show_gou_wu_che():
     for key in gou_wu_che:
         print(key, end=' ')
@@ -41,17 +43,20 @@ def show_gou_wu_che():
         print()
 def buying(gou_wu_che, shnag_pin_info):
     count = int(input('请输入商品编号'))
-    if count not in shnag_pin_info:
-        print('商品不存在')
-    else:
-        if count in gou_wu_che:
-            gou_wu_che[count][0] += 1
+    while True:
+        if count not in shnag_pin_info:
+            print('商品不存在')
         else:
-            list01 = []
-            list01.append(1)
-            list01.append(shnag_pin_info[count]['price'])
-            gou_wu_che[count] = list01
-        print('添加到购物车')
+            if count in gou_wu_che:
+                gou_wu_che[count][0] += 1
+            else:
+                list01 = []
+                list01.append(1)
+                list01.append(shnag_pin_info[count]['price'])
+                gou_wu_che[count] = list01
+            print('添加到购物车')
+            break
+
 def show(shnag_pin_info):
     for k, v in shnag_pin_info.items():
         print(k, end=' ')
@@ -59,4 +64,3 @@ def show(shnag_pin_info):
             print(i, end=' ')
         print()
 shopping()
-max
