@@ -25,14 +25,12 @@ def str_add():
 def add_to_no3():
     global i, num0, num00
     list01=[]
-    list02=[]
     for m in range(max_len - 1, -1, -1):
         str_num03=str()
         for i in range(max_len - 1, -1, -1):
             num0 = int(str_num01[i]) * int(str_num02[m]) + num0
             if 10 > num0:
                 num00 = num0
-                pass
             else:
                 num00 = num0 % 10
             num0 //= 10
@@ -40,6 +38,7 @@ def add_to_no3():
         str_num03=' '*(max_len-1-m)+str_num03
         list01.append(str_num03)
         n=reduce(big_number_add,list01)
+        print('**',n)
         return  n
 
     # print(list_info)
@@ -61,7 +60,7 @@ num02=''
 for i in range(random.randint(600,700)):
     num02+=str(random.randint(0,9))
 b=int(num01)*int(num02)
-print(len(str(b)),b)
+print('***',len(str(b)),b)
 result=big_number_m(num01,num02)
 
 time2=time.time()
