@@ -17,3 +17,4 @@ w01=Wife('caster',25) #-->25读不进去的
 w01.age=50
 print(w01.age)  #-->20
 
+

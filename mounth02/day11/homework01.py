@@ -1,11 +1,11 @@
 class Player:
     def __init__(self,name,atk,hp):
-        self.name=name
-        self.atk=atk
-        self.hp=hp
+        self.name = name
+        self.atk = atk
+        self.hp = hp
     def attack(self,obj):
-        obj.hp-=self.atk
-        if obj.hp<=0:
+        obj.hp -= self.atk
+        if obj.hp <= 0:
             obj.die()
     def die(self):
         print('you die')
@@ -16,16 +16,17 @@ class Enemy:
         self.name=name
         self.atk = atk
         self.hp = hp
+
     def attack(self, obj):
         obj.hp -= self.atk
-        if obj.hp<=0:
+        if obj.hp <= 0:
             obj.die()
 
     def die(self):
         print('死亡动画')
         print(self.name,'被消灭')
-ming=Player('小明',20,60)
-enemy_list=[Enemy('地狱犬1',10,30),
+ming = Player('小明',20,60)
+enemy_list = [Enemy('地狱犬1',10,30),
             Enemy('地狱犬2',10,30)]
 # monster=Enemy('地狱犬1',10,30)
 # monster2=Enemy('地狱犬2',10,30)
