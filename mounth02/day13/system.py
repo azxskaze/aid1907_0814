@@ -58,20 +58,21 @@ class StudentManagerController:
                     self.__stu_list[j],self.__stu_list[j+1]=self.__stu_list[j+1],self.__stu_list[j]
 '''界面显示类'''
 class StudentManagerView:
-    stu_list = StudentManagerController()
+    def __init__(self):
+        self.__manager = StudentManagerController()
     # def __init__(self):
     #     pass
     # '''显示菜单'''
 
     def __display_menu(self):
         menu='''
-+----------------------------+
-| 1） 添加学生信息             |
-| 2）显示学生信息              |
-| 3）删除学生信息              |
-| 4）修改学生信息              |
-| 5）按学生成绩低~高显示学生信息 |
-+----------------------------+
++------------------------------+
+| 1） 添加学生信息               |
+| 2）显示学生信息                |
+| 3）删除学生信息                |
+| 4）修改学生信息                |
+| 5）按学生成绩低~高显示学生信息   |
++------------------------------+
                 '''
         print(menu)
         '''选择菜单项'''
@@ -107,27 +108,29 @@ class StudentManagerView:
         name=input('name')
         age=input('age')
         score=input('score')
-        self.stu_list.add_student(StudentModel(name,age,score))
-        # print(self.stu_list.stu_list[0].name)
+        self.__manager.add_student(StudentModel(name, age, score))
+        # print(self.__manager.__manager[0].name)
     def __output_students(self):
-        for i in self.stu_list.stu_list:
+        for i in self.__manager.stu_list:
             i.show()
     def __delete_student(self):
         id=int(input('请输入学号'))
-        self.stu_list.remove_student(id)
+        self.__manager.remove_student(id)
     def __modify_student(self):
         id=int(input('请输入要修改学生的学号：'))
         name=input('请输入要修改学生的新姓名：')
         age=int(input('请输入要修改学生的新年龄：'))
         score=int(input('请输入要修改学生的新成绩：'))
-        self.stu_list.update_student(StudentModel(name,age,score,id))
+        self.__manager.update_student(StudentModel(name, age, score, id))
     def __upup(self):
-        self.stu_list.sort_student()
+        self.__manager.sort_student()
 
 '''程序入口'''
 if __name__=='__main__':
-    manager=StudentManagerView()
-    manager.main()
+
+    view=StudentManagerView()
+    view.main()
+
 
 
 

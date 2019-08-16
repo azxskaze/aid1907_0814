@@ -107,7 +107,7 @@ class StudentManagerView:
         age=input('age')
         score=input('score')
         self.stu_list.add_student(StudentModel(name,age,score))
-        # print(self.stu_list.stu_list[0].name)
+        # print(self.__manager.__manager[0].name)
     def __output_students(self):
         for i in self.stu_list.stu_list:
             i.show()
@@ -140,7 +140,7 @@ class StudentManagerView:
 #
 #
 # list01.sort_student()
-# for i in list01.stu_list:
+# for i in list01.__manager:
 #     i.show()
 if __name__=='__main__':
     manager=StudentManagerView()
