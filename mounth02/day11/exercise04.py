@@ -44,6 +44,7 @@ list01 = [Skill('镖',2,2,0),
         Skill('斩',4,4,0),
         Skill('降龙十八掌',5,5,100)
         ]
+
 def find(name):
     for item in list01:
         if item.name == name:

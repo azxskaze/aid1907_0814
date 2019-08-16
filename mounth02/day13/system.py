@@ -1,3 +1,4 @@
+'''学生信息类'''
 class StudentModel:
 
     def __init__(self,name,age,scores,id=0):
@@ -7,8 +8,7 @@ class StudentModel:
         self.scores=scores
     def show(self):
         print(self.id,self.name,self.age,self.scores)
-
-
+'''逻辑控制类'''
 class StudentManagerController:
     __stu_id=1000
     def __init__(self):
@@ -56,6 +56,7 @@ class StudentManagerController:
             for j in range(len(self.__stu_list) - 1-i):
                 if int(self.__stu_list[j].scores)>int(self.__stu_list[j+1].scores):
                     self.__stu_list[j],self.__stu_list[j+1]=self.__stu_list[j+1],self.__stu_list[j]
+'''界面显示类'''
 class StudentManagerView:
     stu_list = StudentManagerController()
     # def __init__(self):
@@ -123,28 +124,11 @@ class StudentManagerView:
     def __upup(self):
         self.stu_list.sort_student()
 
-
-
-#
-# list01=StudentManagerController()
-# stud01=StudentModel(5,6,9)
-# stud05=StudentModel(5,6,1)
-# stud02=StudentModel(5,6,12)
-# stud03=StudentModel(5,6,88)
-# list01.add_student(stud01)
-# list01.add_student(stud02)
-# list01.add_student(stud03)
-# list01.add_student(stud05)
-#
-# # print(list01.update_student(StudentModel('a',9,8,stud01.id)))
-#
-#
-# list01.sort_student()
-# for i in list01.stu_list:
-#     i.show()
+'''程序入口'''
 if __name__=='__main__':
     manager=StudentManagerView()
     manager.main()
+
 
 
 

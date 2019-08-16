@@ -1,1 +1,1 @@
-class Hero
+# class Hero
