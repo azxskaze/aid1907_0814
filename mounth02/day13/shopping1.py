@@ -67,30 +67,40 @@ class ShoppingConsoleView:
 
         )
     def __display_meun(self):
-        prompt = '''************
-                商店
-                ************
-                按1购买
-                按2结算
-                按q退出
-                ************
+        prompt = '''
+************
+商店
+************
+按1购买
+按2结算
+按q退出
+************
                 '''
         print(prompt)
+    def __select_menu(self):
+        item = input(':')
+        if item == 'q':
+            return False
+        elif item == '1':
+            self.__print_info()
+            self.__create_order()
+            return True
+        elif item == '2':
+            self.__print_order()
+            self.__calc_total_price()
+            zongjia = self.view.calc_total_price()
+            self.__pay(zongjia)
+            return True
+
+
     def menu(self):
         while True:
             self.__display_meun()
-            item = input(':')
-            if item == 'q':
+            if self.__select_menu():
+                continue
+            else:
                 break
-            elif item == '1':
-                self.__print_info()
-                self.__create_order()
-            elif item == '2':
-                self.__print_order()
-                self.__calc_total_price()
-                zongjia=self.view.calc_total_price()
 
-                self.__pay(zongjia)
     def __print_info(self):
         self.view.print_info()
     def __create_order(self):
