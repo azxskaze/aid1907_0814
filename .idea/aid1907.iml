@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/mounth02" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mounth02/python_net_test" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mounth02/python_net_test/_trial_temp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth02/day15" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mounth02/day16/project" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/学习笔记/7.31" />
     <orderEntry type="inheritedJdk" />

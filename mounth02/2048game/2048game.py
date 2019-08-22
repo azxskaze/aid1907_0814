@@ -1,4 +1,4 @@
-import random
+import random1
 game_bool=1
 list_info=[[0, 0, 0, 0],
            [0,0,0,0],
@@ -25,9 +25,9 @@ def dict2_dict(dict01, dict02, list):
             '''在0的位置随机生成2'''
 
 def random_get(dict02):
-    a1 = random.randint(0, len(dict02))
+    a1 = random1.randint(0, len(dict02))
     while True:
-        a2 = random.randint(0, len(dict02))
+        a2 = random1.randint(0, len(dict02))
         if a1 != a2:
             break
     i = 0

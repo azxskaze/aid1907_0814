@@ -1,4 +1,4 @@
-import random
+import random1
 import time
 from functools import reduce
 from big_number_add import big_number_add
@@ -54,11 +54,11 @@ def add_to_no3():
 
 time0=time.time()
 num01=''
-for i in range(random.randint(600,700)):
-    num01+=str(random.randint(0,9))
+for i in range(random1.randint(600, 700)):
+    num01+=str(random1.randint(0, 9))
 num02=''
-for i in range(random.randint(600,700)):
-    num02+=str(random.randint(0,9))
+for i in range(random1.randint(600, 700)):
+    num02+=str(random1.randint(0, 9))
 b=int(num01)*int(num02)
 print('***',len(str(b)),b)
 result=big_number_m(num01,num02)

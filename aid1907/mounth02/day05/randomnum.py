@@ -1,6 +1,6 @@
-import  random
+import  random1
 i=0
-random_num=random.randint(1,10)
+random_num=random1.randint(1, 10)
 print(random_num)
 print(type(random_num))
 while True:

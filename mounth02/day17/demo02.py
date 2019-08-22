@@ -1,0 +1,1 @@
+# l=list[i for i in [1,2,3] yield i]

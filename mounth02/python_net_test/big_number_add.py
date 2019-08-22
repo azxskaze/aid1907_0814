@@ -1,4 +1,4 @@
-import random
+import random1
 import time
 def big_number_add(num01,num02):
     global str_num01, str_num02, str_num03, num00, num0, max_len
@@ -45,11 +45,11 @@ def add_to_no3():
 
 time0=time.time()
 num01=''
-for i in range(random.randint(300,1000)):
-    num01+=str(random.randint(0,9))
+for i in range(random1.randint(300, 1000)):
+    num01+=str(random1.randint(0, 9))
 num02=''
-for i in range(random.randint(300,1000)):
-    num02+=str(random.randint(0,9))
+for i in range(random1.randint(300, 1000)):
+    num02+=str(random1.randint(0, 9))
 result=big_number_add(num01,num02)
 time2=time.time()
 print(len(str(result)),result,sep=' ')

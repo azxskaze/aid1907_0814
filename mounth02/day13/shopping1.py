@@ -21,6 +21,7 @@ class ShangPinControllay:
                                ShangPinModel('乾坤大挪移',8888,105),
                                ShangPinModel('七伤拳',7777,106)}
         self.__shang_pin_ding_dan=[]
+
     @property
     def shang__pin_info(self):
         return self.__shang_pin_info
@@ -28,6 +29,7 @@ class ShangPinControllay:
     @property
     def shang_pin_ding_dan(self):
         return self.__shang_pin_ding_dan
+
     def print_info(self):
         print('*' * 50)
         for item in self.__shang_pin_info:

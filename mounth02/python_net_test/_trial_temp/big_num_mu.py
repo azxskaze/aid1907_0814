@@ -2,16 +2,16 @@
 from functools import reduce
 from  big_add import big_add
 import time
-import random
+import random1
 
 tim1=time.time()
 '''要用到大数加法'''
 num1=''
-for i in range(random.randint(11600,11700)):
-    num1+=str(random.randint(0,9))
+for i in range(random1.randint(11600, 11700)):
+    num1+=str(random1.randint(0, 9))
 num2=''
-for i in range(random.randint(11600,11700)):
-    num2+=str(random.randint(0,9))
+for i in range(random1.randint(11600, 11700)):
+    num2+=str(random1.randint(0, 9))
 tim2=time.time()
 num1=str(num1)
 num2=str(num2)

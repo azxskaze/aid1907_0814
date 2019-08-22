@@ -22,11 +22,10 @@ class ICBC:
     # def select_money(self):
     #     print(ICBC.total_money)
 
-
-
 i01=ICBC('碑林支行',100000)
 i02=ICBC('雁塔支行',100000)
 # print(ICBC.total_money)
+
 # i01.select_money()
 
 ICBC.select_moner()

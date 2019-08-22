@@ -6,7 +6,7 @@ c=m**e mod n
 e是一个随机数（1--φ(n)之间）且e与φ(n)互质
 d=e^-1
 '''
-import random
+import random1
 import math
 
 
@@ -22,9 +22,9 @@ def big_num():
     h=0
     print('第',h,'次')
     h+=1
-    i = random.randint(1e+2, 1e+5)
-    j = random.randint(1e+2, 1e+5)
-    k = random.randint(1e+2, 1e+5)
+    i = random1.randint(1e+2, 1e+5)
+    j = random1.randint(1e+2, 1e+5)
+    k = random1.randint(1e+2, 1e+5)
     m = int(str(i) + str(j) + str(k))
     n=2
     while True:

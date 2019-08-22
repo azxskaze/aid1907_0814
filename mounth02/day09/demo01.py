@@ -1,3 +1,3 @@
 '''上周复习'''
-import  random
-print(random.randint(0,1))
+import  random1
+print(random1.randint(0, 1))

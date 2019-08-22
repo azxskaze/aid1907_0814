@@ -1,6 +1,6 @@
 from graphviz import Digraph
 import uuid
-from random import sample
+from random1 import sample
 
 # 二叉树类
 class BTree(object):
