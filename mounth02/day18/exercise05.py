@@ -33,6 +33,6 @@ for i in map(lambda i:(i.name,i.atk,i.duration),list01):
 # tuplu01=([1,1],[2,2,2,2,],[3,3])
 # # print(max(tuplu01,key = lambda i:len(i)))
 # print(ListHelper.find_max(tuplu01,lambda i:len(i)))
-ListHelper.delete_obj(list01,lambda i:i.atk,6100)
+ListHelper.delete_obj(list01,lambda i:i.atk<6100)
 for i in list01:
     print(i.atk)

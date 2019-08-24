@@ -79,8 +79,8 @@ class ListHelper:
                     iterable_target[j + 1], iterable_target[j] = iterable_target[j], iterable_target[j + 1]
 
     @staticmethod
-    def delete_obj(iterable_target, func_condition,j):
+    def delete_obj(iterable_target, func_condition):
 
         for i in range(len(iterable_target) - 1,-1,-1):
-            if func_condition(iterable_target[i]) < j:
+            if func_condition(iterable_target[i]):
                 del iterable_target[i]
