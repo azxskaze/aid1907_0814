@@ -2,7 +2,7 @@ from functools import reduce
 
 def f(x):
     return x**2
-a=map(f,[1,2,3,4,5])
+a=map(lambda i:i**2,[1,2,3,4,5])
 
 for i in a:
     print(i)
