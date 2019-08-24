@@ -1,4 +1,7 @@
 import random
+
+import os
+
 game_bool = 1
 list_info = [[0, 0, 0, 0],
            [0,0,0,0],
@@ -117,6 +120,7 @@ def show(list):
 游戏界面展示及最大数检测
     :param list:
     """
+    os.system('clear')
     global game_bool
     for i in range(len(list)):
         for j in range(len(list[i])):
