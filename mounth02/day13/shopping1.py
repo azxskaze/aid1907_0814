@@ -43,7 +43,7 @@ class ShangPinControllay:
         return False
     def print_order(self):
         for item in self.__shang_pin_ding_dan:
-            item.show()
+            item.top()
             for i in self.__shang_pin_info:
                 if item.id==i.id:
                     print(item.count*i.price)

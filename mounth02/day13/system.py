@@ -112,7 +112,7 @@ class StudentManagerView:
         # print(self.__manager.__manager[0].name)
     def __output_students(self):
         for i in self.__manager.stu_list:
-            i.show()
+            i.top()
     def __delete_student(self):
         id=int(input('请输入学号'))
         self.__manager.remove_student(id)

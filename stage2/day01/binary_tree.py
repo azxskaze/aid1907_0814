@@ -4,18 +4,39 @@ class Node:
         self.right=right
         self.val=val
 
+
 class BinaryTree:
+
     def __init__(self):
-       pass
 
+       self.node=Node()
     def full_create(self,iter):
-        count=1
-        node=Node(iter[0])
-        for i in range(1,len(iter),count*2):
-            node.left=Node(iter[i])
+        self.node=Node(iter[0])
+        node=self.node
+        for i in iter:
+            def a(i):
+                node.left = Node(i)
 
-            node.right=Node(iter[i+1])
+                node.right = Node(i)
 
 
 
+
+
+    def left(self):
+        res=[]
+        root=self.node
+        def preorderTraversal(root,res):
+            res.append(root)
+            preorderTraversal(root.left,res)
+            preorderTraversal(root.right,res)
+        return res
+
+
+
+
+
+tree=BinaryTree()
+tree.full_create('abcdef')
+tree.left()
 

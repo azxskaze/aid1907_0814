@@ -41,9 +41,11 @@ class LinkList:
             print(p.val)
             p=p.next
     def is_null(self):
-        '''判断是否为空'''
+        '''判断链表是否为空'''
         return not self.head.next
+
     def clear_node(self):
+        '''清空链表'''
         self.head.next=None
 
     def append_node(self,iter):
@@ -57,7 +59,7 @@ class LinkList:
 
 
     def insert_node(self,num,iter):
-        '''插入节点'''
+        '''指定位置插入元素'''
         p=self.head
         for i in range(num):
             if p.next is None:
@@ -103,7 +105,7 @@ class LinkList:
 
         print(p.val)
 
-    def add_node_list(self,node_list):
+    def node_list_add(self, node_list):
         '''有序链表合并'''
         p=self.head
         q=node_list.head
@@ -133,12 +135,12 @@ class LinkList:
 
 
 list1=LinkList()
-list1.add_node(range(1,100,2))
+list1.add_node([0,2,4,5,8,9,11,12,56,89,99,102])
 
 list2=LinkList()
-list2.add_node(range(2,100,2))
+list2.add_node((5,6,2,3,8,9,5,1,2,3,8,9))
 
-list1.add_node_list(list2)
+list1.node_list_add(list2)
 list1.show()
 
 

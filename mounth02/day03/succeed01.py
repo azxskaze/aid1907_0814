@@ -5,7 +5,7 @@ class ElectraCar(Car):
     加上之后，就不能在类的外面创建其他的实例变量了'''
     def __init__(self,name,speed,weight,num):
         super().__init__(name,speed,weight,num)
-        super().show
+        super().top
     fnn=100
     __fn='私有变量'
     def __nume(self):
