@@ -20,6 +20,8 @@ class StrackLink:
         self._top=self._top.next
         return temp
     def top(self):
+        if self.is_empty():
+            return None
         return self._top
 if __name__=='__main__':
     s2=StrackLink()
