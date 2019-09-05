@@ -1,0 +1,30 @@
+from multiprocessing import Process
+import os
+f = open('1.txt','r')
+f2 = open('3.txt','a')
+def copy1():
+    # f = open('1.txt','r')
+    # f2 = open('3.txt','a')
+    size = os.path.getsize('1.txt')
+    f.seek(size//2)
+    f2.seek(size//2)
+    f2.write(f.read())
+    f.close()
+    f2.close()
+def copy2():
+    size = os.path.getsize('1.txt')
+    print(f2.tell())
+
+    f2.seek(0)
+    print(f.read(size//2))
+    f2.seek(0)
+    f2.write(f.read(size//2))
+    print(f2.tell())
+    f.close()
+    f2.close()
+p2 = Process(target=copy2)
+# p1 = Process(target=copy1)
+# p1.start()
+p2.start()
+# p1.join()
+p2.join()

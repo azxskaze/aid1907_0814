@@ -1,5 +1,7 @@
 
-'''自定义促进程磊'''
+'''
+自定义进程类
+'''
 
 from multiprocessing import Process
 class MyProcess(Process):
