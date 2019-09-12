@@ -1,13 +1,7 @@
 str1='abc'
-
-
 list1 = []
 for i in str1:
     list1.append(bin(ord(i)))
-
-# str2=''.join(list1).replace('0b','')
-# print(str2)
-# print(len(list1[0]))
 list2=[]
 for i in list1:
     i=i.replace('0b','')
@@ -18,7 +12,6 @@ for i in list1:
 # print(list2)
 # 原始数据长度
 len1=len(list2)*8
-
 x=((len1)+1)%512
 if x<448:
     y=448-x
@@ -87,13 +80,9 @@ def ft(B,C,D):
         return B ^ C ^ D
 
 H0 = 0x67452301
-
 H1 = 0xEFCDAB89
-
 H2 = 0x98BADCFE
-
 H3 = 0x10325476
-
 H4 = 0xC3D2E1F0
 
 

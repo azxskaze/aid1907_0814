@@ -3,6 +3,7 @@
 '''
 定义方法需要在Pool之前
 '''
+
 from multiprocessing import Pool,Queue
 import os
 # new_path = '/home/tarena/PycharmProjects/aid1907/stage2/day09/chat'

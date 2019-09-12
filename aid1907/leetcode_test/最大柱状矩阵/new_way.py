@@ -1,9 +1,26 @@
 import time
 def max_j(heights):
+    '''空列表直接返回0'''
     if heights == [] or heights == [0]:
         return 0
+    '''通过判断是否递增来提前计算进行递增数列简单计算'''
+    for i in range(len(heights)-1):
+        if heights[i+1]>=heights[i]:
+            pass
+        else:
+            break
+    else:
+        max1 = 0
+        for i in range(len(heights)):
+            '''递增列表的特点为，矩形完美，不需要裁剪，可以直接计算'''
+            a = heights[i]*(len(heights)-i)
+            if a > max1:
+                max1 = a
+        return max1
+
     a=len(heights)
     list2=[]
+    '''遍历列表元素，每个元素依次向右遍历找出每个元素向右最大矩阵'''
     for i in range(a):
         maxi=0
         for j in range(i,a):
@@ -12,8 +29,6 @@ def max_j(heights):
                 maxi = ma
             if (a - i)*heights[j]<maxi:
                 break
-            # else:
-            #     break
         list2.append(maxi)
     value=0
     for i in list2:

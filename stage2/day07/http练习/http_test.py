@@ -7,7 +7,6 @@ s.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 s.bind(('176.234.6.35',1234))
 s.listen(5)
 c,addr = s.accept()
-print('',addr)
 data = c.recv(4096).decode()
 print(data)
 html1 = '''HTTP/1.1 200 OK
