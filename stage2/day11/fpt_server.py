@@ -6,7 +6,7 @@ from time import sleep
 HOST = '0.0.0.0'
 PORT = 8888
 ADDR = (HOST,PORT)
-FTP = "/home/tarena/" # 文件库位置
+FTP = "/home/tarena/下载/" # 文件库位置
 
 class FtpServer(Thread):
     def __init__(self,connfd):
@@ -15,9 +15,11 @@ class FtpServer(Thread):
     def do_list(self):
         files = os.listdir(FTP)
         if not files:
+            print('no')
             self.connfd.send('打钱'.encode())
             return
         else:
+
             self.connfd.send(b'OK')
             sleep(0.1)
         filelist = ''
@@ -25,10 +27,12 @@ class FtpServer(Thread):
             if file[0] != '.'\
                     and os.path.isfile(FTP+file):
                 filelist += file + '\n'
+
         self.connfd.send(filelist.encode())
     def do_get(self,filename):
         try:
-            f = open(filename,'rb')
+            print(filename)
+            f = open(FTP+filename,'rb')
         except :
             self.connfd.send('打钱'.encode())
             return
@@ -60,7 +64,8 @@ class FtpServer(Thread):
         while True:
             data = self.connfd.recv(1024).decode()
             if not data or data == 'Q':
-                return
+                sys.exit()
+
             elif data == 'L':
                 self.do_list()
             elif data[0] == 'G':
@@ -69,8 +74,6 @@ class FtpServer(Thread):
             elif data[0] == 'P':
                 filename = data.split(' ')[-1]
                 self.do_put(filename)
-
-
 def main():
     s = socket()
     s.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
@@ -84,7 +87,5 @@ def main():
         t = FtpServer(c)
         t.daemon = True
         t.start()
-
-
 if __name__ == '__main__':
     main()

@@ -9,29 +9,33 @@ class FtpClient:
         self.connfd.send(b'L')
         data = self.connfd.recv(1024)
         if data == b'OK':
+
             data = self.connfd.recv(1024*1024).decode()
             print(data)
         else:
             print(data)
             print(111)
     def do_get(self,filename):
-        self.connfd.send('G '+filename.encode())
+        print(filename)
+        self.connfd.send(b'G '+filename.encode())
         data = self.connfd.recv(1024)
-        if data == 'OK':
+        if data == b'OK':
             f = open(filename,'wb')
+            print(filename)
             while True:
                 data = self.connfd.recv(1024)
                 if data == '##':
                     break
                 f.write(data)
+                print('ok')
             f.close()
         else:
-            print(data)
+            print(data.decode())
 
     def do_put(self,filename):
-        self.connfd.send('P '+filename.encode())
+        self.connfd.send(b'P '+filename.encode())
         data = self.connfd.recv(1024)
-        if data == 'OK':
+        if data == b'OK':
             f = open(filename,'rb')
             while True:
                 data = f.read(1024)
@@ -41,7 +45,7 @@ class FtpClient:
                 self.connfd.send(data)
             f.close()
     def do_quit(self):
-        self.connfd.send('Q')
+        self.connfd.send(b'Q')
         self.connfd.close()
         sys.exit()
 def main():
@@ -67,6 +71,7 @@ def main():
         else:
             print("请输入正确命令!")
 if __name__ == '__main__':
+
     main()
 
 
@@ -74,13 +79,3 @@ if __name__ == '__main__':
 
 
 
-
-
-
-
-def mian():
-    pass
-
-
-if __name__ == '__main__':
-    pass

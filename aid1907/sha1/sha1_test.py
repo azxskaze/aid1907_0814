@@ -1,4 +1,4 @@
-str1='abc'
+str1 = 'gnubd'
 list1 = []
 for i in str1:
     list1.append(bin(ord(i)))
@@ -57,6 +57,13 @@ for i in range(0,len(len16),8):
 '''到这一步预处理就完了'''
 print(len(list16),list16)
 str3=''.join(list16)
+w = []
+def fenzu():
+    for i in range(len(str3),128):
+        for j in range(len(str3),2):
+            w.append()
+
+
 
 
 t=0
@@ -78,12 +85,18 @@ def ft(B,C,D):
         return (B & C) | (B & D) | (C & D)
     elif 60 <= t <= 79:
         return B ^ C ^ D
+def sha1():
+    pass
+
+
 
 H0 = 0x67452301
 H1 = 0xEFCDAB89
 H2 = 0x98BADCFE
 H3 = 0x10325476
 H4 = 0xC3D2E1F0
+
+
 
 
 
