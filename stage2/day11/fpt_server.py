@@ -65,7 +65,6 @@ class FtpServer(Thread):
             data = self.connfd.recv(1024).decode()
             if not data or data == 'Q':
                 sys.exit()
-
             elif data == 'L':
                 self.do_list()
             elif data[0] == 'G':

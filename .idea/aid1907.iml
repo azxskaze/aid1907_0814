@@ -9,6 +9,9 @@
       <sourceFolder url="file://$MODULE_DIR$/mounth02/day16/project" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mounth02/game_2048" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stage2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stage2/day18" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stage2/day18/httpserver" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stage2/day18/webframe" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/学习笔记/7.31">
       <sourceFolder url="file://$USER_HOME$/学习笔记/7.31/test1" isTestSource="false" />

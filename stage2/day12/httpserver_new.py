@@ -44,7 +44,7 @@ class HttpServer:
             print(filename)
             f = open(filename)
         except Exception:
-            text = 'HTTP/1.1 200 OK\r\nContent-Type:text/html\r\n\r\n'
+            text = 'HTTP/1.1 404 Not Found\r\nContent-Type:text/html\r\n\r\n'
         else:
             text = 'HTTP/1.1 200 OK\r\nContent-Type:text/html\r\n\r\n'+f.read()
         finally:
