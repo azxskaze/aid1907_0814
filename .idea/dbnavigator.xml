@@ -23,12 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="b8539f30-0821-4051-96bb-60b8648430cf">
-        <schema name="books" object-types="table, view" />
-        <schema name="stu" object-types="table, view" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="b8539f30-0821-4051-96bb-60b8648430cf">
