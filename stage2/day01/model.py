@@ -40,9 +40,11 @@ class LinkList:
         while p:
             print(p.val)
             p=p.next
+
     def is_null(self):
         '''判断是否为空'''
         return not self.head.next
+
     def clear_node(self):
         self.head.next=None
 

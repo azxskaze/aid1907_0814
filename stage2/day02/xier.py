@@ -2,7 +2,7 @@
 import random
 import time
 
-from stage2.ady02 import maopao
+from stage2.day02 import maopao
 
 
 def xier(list01):

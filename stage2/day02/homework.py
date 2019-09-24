@@ -1,4 +1,4 @@
-from ady02.link_strack import StrackLink
+from day02.link_strack import StrackLink
 
 '''判断括号是否正确'''
 str1=')Open source (({soft]ware) }[is] made <better when {users} can easily (contribute] code and documentation to ' \

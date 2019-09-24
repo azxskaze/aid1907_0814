@@ -1,4 +1,4 @@
-from ady02.squeue import SQueue
+from day02.squeue import SQueue
 
 
 class Node:

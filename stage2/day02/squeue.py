@@ -1,4 +1,4 @@
-from ady02.link_strack import StrackLink
+from day02.link_strack import StrackLink
 
 
 class SQueueException(Exception):

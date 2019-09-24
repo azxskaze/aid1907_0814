@@ -5,6 +5,7 @@
 
 from multiprocessing import Process
 class MyProcess(Process):
+
     def __init__(self, value=None):
         self.value = value
         super().__init__()

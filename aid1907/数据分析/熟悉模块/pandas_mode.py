@@ -107,17 +107,3 @@ print(df.sample(n=10))
 print(df.sample(frac=0.001))
 
 # Series也可以抽样
-a = (('a','1','11'),('b','2','22'),('c','3','33'))
-
-list1 = []
-for i in a:
-    mes = '%s %s %s'%i
-    print(mes)
-    list1.append(mes)
-print(list1)
-s= '*'.join(list1)
-print(s)
-list1 = s.split('*')
-print(list1)
-for i in list1:
-    print(i)
