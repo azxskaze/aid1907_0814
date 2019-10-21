@@ -1,0 +1,4 @@
+libs文件夹用来管理url和版本,
+其他文件调用url的时候调统一用UrlManager里面对url进行封装的接口
+每次发布的时候只需要在UrlManager
+里面修改版本号即可同步到所有的url里面

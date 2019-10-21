@@ -107,3 +107,7 @@ print(df.sample(n=10))
 print(df.sample(frac=0.001))
 
 # Series也可以抽样
+try:
+    a=1
+except:
+    print(1)

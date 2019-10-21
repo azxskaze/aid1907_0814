@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test for</title>
+</head>
+<body>
+    {% for k,v in dic.items %}
+        {% if forloop.first %} =========== {% endif %}
+
+        <p>{{ forloop.revcounter }} 姓名:{{ v }}</p>
+
+        {% if forloop.last %} &&&&&&&&& {% endif %}
+    {% empty %}
+        <p>当前没有数据</p>
+    {% endfor %}
+
+
+    {% for i in lst1 %}
+        <p>姓名:{{ i }}</p>
+    {% empty %}
+        <p>当前没有数据</p>
+    {% endfor %}
+    </body>
+</html>

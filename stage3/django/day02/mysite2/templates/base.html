@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ lst }}
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>主页</title>
+    {% endblock %}
+</head>
+<body>
+<a href="/music">音乐频道</a>
+<a href="/sports">体育频道</a>
+<br>
+    {% block info %}
+        现在是主页
+    {% endblock %}
+<br>
+<br>
+<h3>联系方式：11111111</h3>
+
+</body>
+</html>

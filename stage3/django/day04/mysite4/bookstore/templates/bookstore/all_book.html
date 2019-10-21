@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>图书管理</title>
+    <style>
+        td {
+
+            width: 160px;
+            margin: 0;
+            padding: 0;
+        }
+
+        th,
+        tr {
+            margin: 0;
+            padding: 0;
+        }
+
+        table,
+        td {
+            border: solid 1px #666;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>书名</th>
+            <th>定价</th>
+            <th>零售价</th>
+            <th>出版社</th>
+            <th>操作</th>
+        </tr>
+
+        <!--{% for i,v in dic.items %}-->
+        <!--<tr>-->
+            <!--<td>{{ v.0 }}</td>-->
+            <!--<td>{{ v.2 }}</td>-->
+            <!--<td>{{ v.3 }}</td>-->
+            <!--<td>{{ v.1 }}</td>-->
+            <!--<td>-->
+                <!--<a href="编辑">编辑</a>-->
+                <!--<a href="删除">删除</a>-->
+            <!--</td>-->
+        <!--</tr>-->
+        <!--{% endfor %}-->
+        {% for i in all_res %}
+        <tr>
+            <td>{{ i.title }}</td>
+            <td>{{ i.price }}</td>
+            <td>{{ i.market_price }}</td>
+            <td>{{ i.pub }}</td>
+            <td>
+                <a href="/bookstore/detail/{{ i.id }}">编辑</a>
+                <a href="/bookstore/delete/{{ i.id }}">删除</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>

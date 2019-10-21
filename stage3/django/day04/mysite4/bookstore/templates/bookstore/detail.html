@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更新</title>
+</head>
+<body>
+<form action="/bookstore/updatebook/{{ book.0.id }}" method='POST'>
+    <table>
+        <input type="file">
+        <tr>
+            <th>书名</th>
+            <td>{{ book.0.title }}</td>
+        </tr>
+        <tr>
+            <th>价格</th>
+            <td><input name='m_price' type="text" value="{{ book.0.market_price }}"></td>
+        </tr>
+
+    </table>
+
+<input type="submit" value="提交">
+    </form>
+
+</body>
+</html>

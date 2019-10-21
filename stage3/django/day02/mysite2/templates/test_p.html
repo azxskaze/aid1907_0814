@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试传参</title>
+</head>
+<body>
+<div>
+    lst:{{ lst }}
+    lst.0:{{ lst.0}}
+    这是lst里面的字典:{{dict}}
+    这是字典里面的username：{{ dict.username|upper }}
+
+</div>
+<div>
+    Dog class obj是 {{ class_obj.say }}
+</div>
+<div>
+    say_hi 直接调用结果是{{ say_hi }}
+</div>
+<p>
+    script 结果是{{ script|safe }}
+</p>
+<p>
+    数字是：{{ number|add:'2' }}
+</p>
+<p>
+    {{ text|truncatechars:'20' }}
+</p>
+</body>
+</html>

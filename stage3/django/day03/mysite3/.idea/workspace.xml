@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4dbc4cb6-acb5-41e0-a289-592e64ab34ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/learn_flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/flask_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/imooc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/libs/UrlManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/libs/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/rout_plan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/day1/t1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/Day01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day02/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day03/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/Day04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day04/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/Day05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day05/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day06/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day07/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/flask/达内-flask/Day07/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/common/libs/UrlManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/common/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/common/modes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/config/base_setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/config/local_setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/config/production_setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/docs/mysql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/jobs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/jobs/tasks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/User/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/User/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/account/Account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/account/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/finance/Finance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/finance/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/food/Food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/food/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/member/Member.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/member/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/stat/Stat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/stat/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/static.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/user/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/controllers/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/images/common/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/images/common/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/images/common/mini_qrcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/datetimepicker/jquery.datetimepicker.full.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/datetimepicker/jquery.datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/jquery-2.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/img/cancel-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/img/cancel-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/img/star-half.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/raty/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/select2/pinyin.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/select2/select2.pinyin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/select2/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/tagsinput/jquery.tagsinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/tagsinput/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/anchor/anchor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/attachment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/attachment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/attachment/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/background/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/background/background.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/background/background.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/background/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/background/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/emotion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/emotion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/emotion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/gmap/gmap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/help/help.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/help/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/help/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/image.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/image/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/link/link.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/map/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/music/music.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/music/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/music/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/spechars/spechars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/spechars/spechars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/dragicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/pre0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/pre1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/pre2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/pre3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/images/pre4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/template/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/video/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/webapp/webapp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/addimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/deletedisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/deleteenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/listbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/en/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/zh-cn/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/dialogbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/anchor.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/arrow_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/button-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/charts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/cursor_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/cursor_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/filescan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/highlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/icons-all.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/loaderror.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/lock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/sortable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/sparator_v.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/upload.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/videologo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/word.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/default/images/wordpaste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/themes/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/video-js.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/ueditor.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/ueditor.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/ueditor.parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/static/plugins/ueditor/upload_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/account/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/account/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/account/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/common/layout_main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/common/layout_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/finance/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/finance/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/finance/pay_info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/food/cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/food/cat_set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/food/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/food/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/food/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/member/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/member/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/member/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/member/set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/stat/food.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/stat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/stat/member.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/stat/share.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/user/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/webs/templates/user/reset_pwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../learn_flask/order/www.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../stage2/day12/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../stage2/day13-re/retest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day01/mysite1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day01/mysite1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day01/mysite1/mysite1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/mysite2/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/math4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/sports.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/test_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02/mysite2/templates/test_p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/day02homework/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/templates/pd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day02homework/day02homework/templates/shebao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mysite3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/migrations/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/templates/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/templates/music/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/templates/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite3/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite3/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sports/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/lena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/shebao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test_url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day04/mysite4/bookstore/templates/bookstore/add_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day04/mysite4/bookstore/templates/bookstore/all_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day04/mysite4/bookstore/templates/bookstore/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day04/mysite4/bookstore/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../mysql03/exercise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../mysql1/sql1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../剑指/二维数组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../剑指/旋转数组最小数字.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../剑指/替换空格.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../剑指/链表倒序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/aid1907.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/aid1907.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../aid1907/数据分析/熟悉模块/pandas_mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../aid1907/数据分析/熟悉模块/pandas_mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../mounth02/day11/oo--设计角度" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../mounth02/day11/oo--设计角度" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../mounth02/day18/装饰器.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../mounth02/day18/装饰器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day12/gevent_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day12/gevent_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day12/gevent_xiecheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day12/gevent_xiecheng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day13-re/regex.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day13-re/regex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day18/httpserver/httpserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day18/httpserver/httpserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day18/webframe/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day18/webframe/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../stage2/day18/webframe/webframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../stage2/day18/webframe/webframe.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite3/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2714">
+              <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite3/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite3/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+              <folding>
+                <element signature="e#20#666#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/migrations/0002_auto_20191017_0902.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/migrations/0003_bookstore_desc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bookstore/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/test_url.html" />
+        <option value="$PROJECT_DIR$/static/readme" />
+        <option value="$PROJECT_DIR$/mysite3/views.py" />
+        <option value="$PROJECT_DIR$/templates/test_static.html" />
+        <option value="$PROJECT_DIR$/index/migrations/readme" />
+        <option value="$PROJECT_DIR$/sports/urls.py" />
+        <option value="$PROJECT_DIR$/sports/views.py" />
+        <option value="$PROJECT_DIR$/mysite3/urls.py" />
+        <option value="$PROJECT_DIR$/news/urls.py" />
+        <option value="$PROJECT_DIR$/index/urls.py" />
+        <option value="$PROJECT_DIR$/index/views.py" />
+        <option value="$PROJECT_DIR$/news/views.py" />
+        <option value="$PROJECT_DIR$/readme" />
+        <option value="$PROJECT_DIR$/templates/index1.html" />
+        <option value="$PROJECT_DIR$/music/templates/readme" />
+        <option value="$PROJECT_DIR$/music/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/index/templates/index.html" />
+        <option value="$PROJECT_DIR$/music/urls.py" />
+        <option value="$PROJECT_DIR$/music/views.py" />
+        <option value="$PROJECT_DIR$/music/templates/music/index.html" />
+        <option value="$PROJECT_DIR$/mysite3/__init__.py" />
+        <option value="$PROJECT_DIR$/mysite3/settings.py" />
+        <option value="$PROJECT_DIR$/bookstore/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="482" />
+    <option name="y" value="120" />
+    <option name="width" value="1465" />
+    <option name="height" value="656" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="sports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite3" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day04" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/index/templates/index" />
+      <recent name="$PROJECT_DIR$/music/templates/music" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/mysite3" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4dbc4cb6-acb5-41e0-a289-592e64ab34ce" name="Default Changelist" comment="" />
+      <created>1571275624536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571275624536</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="482" y="120" width="1465" height="656" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14603616" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" weight="0.3298969" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test_url.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test_static.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/migrations/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/dist-packages/django/contrib/admin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite3/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="33" lean-forward="true" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#29#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#29#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#29#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/templates/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/templates/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#29#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite3/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/migrations/0002_auto_20191017_0902.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/migrations/0003_bookstore_desc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music/templates/music/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="37" column="35" lean-forward="true" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="e#20#666#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

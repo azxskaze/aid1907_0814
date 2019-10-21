@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试静态文件加载</title>
+    <style>
+        img{
+        width:100px;
+        height:100px;
+        }
+    </style>
+</head>
+<body>
+相对地址
+<p><img src="/static/img/lena.jpg" alt=""></p>
+绝对地址
+<p><img src="http://127.0.0.1:8000/static/img/lena.jpg" alt=""></p>
+<!--加载标签，load意思就是加载  等同于python中的import -->
+{% load static%}
+<p>
+    用static标签加载相对地址
+    <img src="{% static 'img/lena.jpg' %}" alt="">
+</p>
+
+
+</body>
+</html>

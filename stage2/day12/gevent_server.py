@@ -2,6 +2,7 @@
 from gevent import monkey
 import gevent
 monkey.patch_all()
+# 让普通阻塞变成协程阻塞
 from socket import *
 
 def handle(c):
@@ -15,8 +16,10 @@ s = socket()
 s.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 s.bind(('0.0.0.0',1234))
 s.listen(5)
-
+i=1
 while True:
+    print(i,'**')
+    i+=1
     c,addr = s.accept()
     print('from:',addr)
     # handle(c) #循环方案

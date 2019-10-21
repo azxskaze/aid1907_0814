@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/stage2/day18" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stage2/day18/httpserver" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/stage2/day18/webframe" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/learn_flask" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/learn_flask/day1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/learn_flask/order" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/学习笔记/7.31">
       <sourceFolder url="file://$USER_HOME$/学习笔记/7.31/test1" isTestSource="false" />

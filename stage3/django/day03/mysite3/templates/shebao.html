@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>社保</title>
+    <style>
+        ul {
+            margin: 0;
+            padding: 0;
+            width: 393px;
+            border-top: solid 1px #666;
+            border-left: solid 1px #666;
+            overflow: hidden;
+            list-style: none;
+        }
+
+        li {
+            display: block;
+            float: left;
+            width: 130px;
+            height: 20px;
+            border-right: solid 1px #666;
+            border-bottom: solid 1px #666;
+            /* margin: 0 100px 0 0; */
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <ul>
+            <li><b>项目</b></li>
+            <li><b>个人缴纳</b></li>
+            <li><b>单位缴纳</b></li>
+        </ul>
+        <ul>
+            <li>养老保险</li>
+            <li>{{grylj}}元</li>
+            <li>{{dwylj}}元</li>
+        </ul>
+        <ul>
+            <li>失业</li>
+            <li>{{grsy}}元</li>
+            <li>{{dwsy}}元</li>
+        </ul>
+
+        <ul>
+            <li>工伤保险</li>
+            <li>0元</li>
+            <li>{{dwgs}}元</li>
+        </ul>
+        <ul>
+            <li>生育保险</li>
+            <li>0元</li>
+            <li>{{dwsy}}元</li>
+        </ul>
+        <ul>
+            <li>医疗保险</li>
+            <li>{{gryylbx}}元</li>
+            <li>{{dwylbx}}元</li>
+        </ul>
+        <ul>
+            <li>公积金</li>
+            <li>{{grgjj}}元</li>
+            <li>{{dwgjj}}元</li>
+        </ul>
+        <ul>
+            <li>个人缴费总和</li>
+            <li>{{gs}}元</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li>公司缴费总和</li>
+            <li>{{ds}}元</li>
+            <li></li>
+        </ul>
+        <ul>
+            <li>纳入国家全额总和</li>
+            <li>{{sum}}元</li>
+            <li></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

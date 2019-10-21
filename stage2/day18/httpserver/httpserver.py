@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+
 '''
 获取http请求
 解析http请求
@@ -6,10 +7,11 @@
 从WebFrame接收反馈数据
 将数据组织为Response格式发送给客户端
 '''
+
 import json
 from socket import *
 import sys
-from  threading import  Thread
+from threading import Thread
 import re
 from config import *
 
@@ -32,24 +34,27 @@ def connect_frame(env):
     except:
         return
 
-
-    # return json.loads(data) #{'status':200,'data':'ccc'}
-
+# return json.loads(data) #{'status':200,'data':'ccc'}
 
 class HTTpServer():
     def __init__(self):
         self.host = host
         self.port = port
         self.address = (host,port)
-
         self.create_socket()
         self.bind()
+
     def create_socket(self):
+
         self.socked = socket()
         self.socked.setsockopt(SOL_SOCKET,SO_REUSEADDR,DEBUG)
+
     def bind(self):
+
         self.socked.bind(self.address)
+
     def server_forever(self):
+
         self.socked.listen(5)
         print('listen the port %d'%self.port)
         while True:
@@ -58,9 +63,10 @@ class HTTpServer():
                             args = (connfd,))
             client.setDaemon(True)
             client.start()
-    def handle(self,connfd):
-        request = connfd.recv(4096).decode()
 
+    def handle(self,connfd):
+
+        request = connfd.recv(4096).decode()
         pattern = r"(?P<method>[A-Z]+)\s+(?P<info>/\S*)"
         try:
             env = re.match(pattern,request).groupdict()

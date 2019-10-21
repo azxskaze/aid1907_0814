@@ -9,6 +9,4 @@ from views import *
 
 urls = [
     ('/time', time1)
-
-
 ]

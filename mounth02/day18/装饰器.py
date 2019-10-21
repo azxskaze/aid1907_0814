@@ -6,7 +6,7 @@ def comput_time(fun):
         b=time.time()
         print(b-a)
     return warp
-@comput_time
+@comput_time 
 def fun1():
     print('fun1')
 fun1()

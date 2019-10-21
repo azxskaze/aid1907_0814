@@ -7,6 +7,7 @@ def foo(a,b):
     print(a,b)
     gevent.sleep(3)
     print('Foo again')
+
 def foo2(a,b):
     print('Running foo2')
     print(a,b)

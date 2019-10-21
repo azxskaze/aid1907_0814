@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{{ html }}
+<body>
+    <form action="/bookstore/add_book" method='POST'>
+        <div>
+            <label for="id_base">请输入书名</label><input type="input" name="title">
+        </div>
+        <div>
+            <label for="id_base">请输入出版社</label><input type="input" name="pub">
+        </div>
+        <div>
+            <label for="id_base">请输入定价</label><input type="input" name="price">
+        </div>
+        <div>
+            <label for="id_base">请输入零售价</label><input type="input" name="market_price">
+        </div>
+
+        <input type="submit" value="提交">
+    </form>
+    ​
+</body>
+
+</html>

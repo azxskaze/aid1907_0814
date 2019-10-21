@@ -31,7 +31,6 @@ class Application:
         try:
             f = open('static/' + filename,'r')
         except:
-
             d = open('static/4041.html')
             data =d.read()
             status = '404'
