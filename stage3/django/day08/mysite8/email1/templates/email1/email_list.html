@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>用户id</th>
+        <th>用户名</th>
+        <th>emain</th>
+    </tr>
+    {% for i in all_email %}
+    <tr>
+        <td>{{ i.id }}</td>
+        <td><a href="send1?name={{ i.name }}&id={{ i.id }}&email={{ i.email }}">{{ i.name }}</a></td>
+
+        <td>{{ i.email }}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+</body>
+</html>
