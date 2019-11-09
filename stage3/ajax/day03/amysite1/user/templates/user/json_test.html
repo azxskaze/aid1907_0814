@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>json test</title>
+</head>
+
+<body>
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+
+    <button id="btn">按钮</button>
+    <div>
+        <table>
+            <tr>
+                <th>name</th>
+                <th>nickname</th>
+            </tr>
+
+        </table>
+        <table id="d1"></table>
+    </div>
+
+    <script>
+
+
+        var d1 = $('#d1')
+        $('#btn').on('click', function () {
+            var xhr = createXhr()
+            xhr.open('get', '/logon/list_user', true)
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    res = JSON.parse(xhr.responseText)
+
+                    var data = res.data;
+                    console.log(data)
+                    html = ''
+                    $.each(data, function (i, obj) {
+                        html += '<tr>';
+                        html += '<td>' + obj.username + '</td>';
+                        html += '<td>' + obj.nickname + '</td>';
+                        html += '</tr>';
+                    });
+                    d1.html(html);
+                };
+            }
+            xhr.send(null);
+        })
+
+
+    </script>
+</body>
+
+</html>

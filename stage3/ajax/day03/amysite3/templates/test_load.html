@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+    <button id="btn">show jq load</button>
+    <div id="show"></div>
+
+    <script>
+        $(function () {
+
+            $('#btn').click(function () {
+                //GET传参
+                $('#show').load('/ajax/test_load_server','user=user1');
+
+
+
+
+                //load POST-传参
+                // $('#show').load('/ajax/test_load_server',{user:'user1'});
+
+                //callback
+                // $('#show').load('/ajax/test_load_server',function(){
+                // alert('---haha--')});
+
+
+
+                // $('#show').load('/ajax/test_load_server #btn2')
+            });
+
+        })
+    </script>
+</body>
+
+</html>

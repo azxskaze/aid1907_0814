@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-1.11.3.js"></script>
+
+<body>
+    <div id="d_name">
+        用户名: <input type="text" id="name" name="name"><span id="t_name"></span>
+
+    </div>
+    <div id="d_pass">
+        密码: <input type="text" id="password" name="password">
+        <span id="t_pass"></span>
+        <p>
+            <!--onclick="put()"-->
+            <button id="btn">注册</button>
+        </p>
+
+    </div>
+
+
+
+
+    <script>
+        function checkuname() {
+
+            //用户名已存在返回true;用户名能用则返回false
+            var res = false;
+
+            var xhr = createXhr();
+            var name = document.getElementById('name').value;
+            var url = '/logon/lll?name=' + name;
+
+
+
+            // xhr.open('get', url, true)------true是异步,如果遇到阻塞会去做别的,如果是同步则会增带阻塞结束
+            xhr.open('get', url, false)
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+
+                    if (xhr.responseText == '1') {
+                        res = true
+                        $('#t_name').html('no')
+                    }
+                    else {
+                        $('#t_name').html('OK')
+                    }
+
+
+                }
+            }
+            xhr.send(null);
+            return res
+
+        }
+
+        $(function () {
+            $('#name').blur(function () {
+                checkuname();
+
+
+            });
+            $('#btn').click(function () {
+
+
+                // ajax异步请求,还没等checkuname()做完就已经判断了,也就是说checkuname()的xhr返回状态没有到4
+                // 的时候,这个函数就已经解析结束了
+
+                if (checkuname()) {
+                    alert('用户名已存在')
+                } else {
+                    alert('用户名可注册')
+                }
+            })
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function put() {
+//             var xhr = createXhr();
+//             xhr.open('post', '/logon/register', true)
+//             xhr.onreadystatechange = function () {
+//                 if (xhr.readyState == 4 && xhr.status == 200) {
+//                     //  内调
+//                     alert(xhr.responseText);
+//                 }
+//             }
+//             xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+
+//             var csrf = $("[name = 'csrfmiddlewaretoken']").val()
+//             var name = $('#name').val();
+//             var password = $('#password').val();
+//             var params = 'password=' + password + '&name=' + name + '&csrfmiddlewaretoken=' + csrf;
+//             xhr.send(params)
+//         }
+
+
+
+//         //确保当前页面元素加载完毕再执行里面的函数
+//         $(function () {
+
+//             $('#name').blur(function () {
+//                 var xhr = createXhr();
+//                 var name = document.getElementById('name').value;
+//                 var url = '/logon/lll?name=' + name;
+//                 xhr.open('get', url, true)
+//                 xhr.onreadystatechange = function () {
+//                     if (xhr.readyState == 4 && xhr.status == 200) {
+//                         var res = xhr.responseText;
+//                         var t_name = document.getElementById('t_name')
+//                         t_name.innerHTML = res;
+//                     }
+//                 }
+//                 xhr.send(null)
+//             })
+//         })
+
+    </script>
+    {% csrf_token %}
+</body>
+
+</html>

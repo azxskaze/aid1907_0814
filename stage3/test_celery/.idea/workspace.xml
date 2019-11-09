@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4b39d36-1a12-4bfc-b317-ed722df1b1db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/stage3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day02/amysite1/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day02/amysite1/templates/json1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day02/amysite1/templates/post_xhr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day02/amysite1/user/templates/user/logon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day02/amysite1/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite1/user/templates/user/json_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/ajax/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_cross.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_load_server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/day03/amysite3/templates/test_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/fruit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/fruit/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-2109-AB17T5A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-2109-SDK5WUW8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-2114-226C8S26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-27316-F2BUCPRH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-3356-5D1F2KDU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-3356-T4P73D4B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-3877-BXDY6KCU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-419-TPSKW6SP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-430-9RBRWTU9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-435-6RCCRDWH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-435-8829CP99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-4612-95F796WB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-695-F2BSB4DC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/1-270x270-701-CB41CHUW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/d72b849b461c08d991c265df00a1bfde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/huiyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/imgs/t4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/templates/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/static/images/huiyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax/project/fruit/templates/logon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/day01/my_jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/message/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/tools/logging_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/topic/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/topic/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/user/cs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/wiki/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../base/project/wiki/wtoken/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test_celery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_celery/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_celery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_celery/test_celery/celery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_celery/user/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_celery/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/Lsb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/thread1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/二进制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/动态规划,跳台阶.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/打印矩阵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/矩形覆盖.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../剑指/镜像.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/01_pyredis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/02_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/03_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/04_consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/05_process_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day01/06——string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/01_bitmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/02_hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/03_redis_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/04_update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/05_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/06_inter_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/07_sortedset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/sms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../stage4/day02/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/day05/mysite5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django/day05/mysite5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django/day06/mysite6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../django/day06/mysite6/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_celery/user/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_celery/test_celery/celery.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_celery/user/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_celery/user/tasks.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="435" />
+    <option name="y" value="77" />
+    <option name="width" value="1611" />
+    <option name="height" value="709" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="test_celery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_celery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_celery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test_celery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+              <item name="test_celery" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4b39d36-1a12-4bfc-b317-ed722df1b1db" name="Default Changelist" comment="" />
+      <created>1573214196011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573214196011</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="435" y="77" width="1611" height="709" extended-state="0" />
+    <layout>
+      <window_info id="DB Browser" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21338384" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_celery/user/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_celery/test_celery/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_celery/user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

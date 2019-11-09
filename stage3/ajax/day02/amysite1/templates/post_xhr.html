@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get_post</title>
+</head>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/jquery-1.11.3.js"></script>
+
+<body>
+<p>用户名:<input type="text" id="username">
+</p>
+
+<p><button id="btn">提交</button>
+<script>
+$(function(){
+    $('#btn').click(function(){
+
+        var xhr = createXhr();
+        // 设置方法为post
+        xhr.open('post','/post_xhr_server/',true)
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                alert(xhr.responseText);
+            }
+        }
+        //改掉请求头中的Content-Type,将其变成标准的form提交头,不然识别不出是form提交
+        xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+
+
+        // 设置post的值
+        //csrf需要手动提交
+        var csrf = $("[name = 'csrfmiddlewaretoken']").val()
+
+        //用户名
+        var username = $('#username').val();
+
+        //将csrf和需要提交的用户名拼接到一起
+        var params = 'username=' + username + '&csrfmiddlewaretoken='+csrf;
+        // post请求的时候send里面写的是要发送的数据
+        xhr.send(params)
+    })
+})</script>
+{% csrf_token %}
+</body>
+</html>

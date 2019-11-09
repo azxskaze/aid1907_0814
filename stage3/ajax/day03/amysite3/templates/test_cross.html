@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>测试跨域</title>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+
+</head>
+
+<body>
+    <button id="btn">跨域请求</button>
+    <script>
+        //预留一个函数,供后端调用
+        function print(data) {
+            console.log('server data is:' + data.key + 'and' + data.value)
+        }
+        $(function () {
+            $('#btn').click(function () {
+                // $.ajax({
+                //     url:"http://localhost:8000/ajax/test_cross_server_json",
+                //     type:'get',
+                //     dataType:'jsonp',
+                //     jsonp:'callback',
+                //     jsonpCallback:'print',
+
+                // } )
+
+
+
+                // jq跨域超简版
+                $.ajax({
+                    url: "http://localhost:8000/ajax/test_cross_server_json",
+                    type: 'get',
+                    dataType: 'jsonp',
+
+                    // 把回调函数写到里面
+                    success: function (data) {
+                        console.log(data);
+                    }
+                })
+            })
+        })
+
+        // $(function(){
+        // $('#btn').click(function(){
+        // //js原生跨域
+        // var body = document.getElementsByTagName('body')[0];
+        // //创建script标签
+        // var script = document.createElement("script");
+        // // 指定scrript的类型
+        // script.type = "text/javascript"
+        // // 指定域名以及要调用的函数名
+        // script.src = "http://localhost:8000/ajax/test_cross_server?callback=print";
+        // // 将script插入到body里面
+        // body.append(script)
+        // })
+        // })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="729ab170-a221-4130-8a0f-93e91e9a03b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stage3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day02/amysite1/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day02/amysite1/templates/json1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day02/amysite1/templates/post_xhr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day02/amysite1/user/templates/user/logon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day02/amysite1/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite1/user/templates/user/json_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/ajax/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_cross.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_get.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_load.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_load_server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/day03/amysite3/templates/test_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/fruit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/fruit/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-2109-AB17T5A1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-2109-SDK5WUW8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-2114-226C8S26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-27316-F2BUCPRH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-3356-5D1F2KDU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-3356-T4P73D4B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-3877-BXDY6KCU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-419-TPSKW6SP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-430-9RBRWTU9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-435-6RCCRDWH.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-435-8829CP99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-4612-95F796WB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-695-F2BSB4DC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/1-270x270-701-CB41CHUW.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/d72b849b461c08d991c265df00a1bfde.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/huiyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/imgs/t4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/templates/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/index/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/static/images/huiyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/static/js/jquery-1.11.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/templates/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ajax/project/fruit/templates/logon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/day01/my_jwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/exercise1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/user/cs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/wiki/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base/project/wiki/wtoken/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/Lsb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/thread1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/二进制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/动态规划,跳台阶.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/打印矩阵.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/矩形覆盖.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/剑指/镜像.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/day05/mysite5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/django/day05/mysite5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/day06/mysite6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/django/day06/mysite6/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/exercise1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/day01/my_jwt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1449">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/动态规划,跳台阶.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1058">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/矩形覆盖.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/二进制.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/镜像.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/打印矩阵.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <folding>
+                <element signature="e#86#107#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/剑指/Lsb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指/key.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base/exercise1.py" />
+        <option value="$PROJECT_DIR$/base/day01/my_jwt.py" />
+        <option value="$PROJECT_DIR$/剑指/tree.py" />
+        <option value="$PROJECT_DIR$/剑指/动态规划,跳台阶.py" />
+        <option value="$PROJECT_DIR$/剑指/矩形覆盖.py" />
+        <option value="$PROJECT_DIR$/剑指/二进制.py" />
+        <option value="$PROJECT_DIR$/剑指/镜像.py" />
+        <option value="$PROJECT_DIR$/剑指/打印矩阵.py" />
+        <option value="$PROJECT_DIR$/剑指/key.txt" />
+        <option value="$PROJECT_DIR$/剑指/Lsb.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-73" />
+    <option name="y" value="129" />
+    <option name="width" value="1308" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="stage3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage3" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="stage3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stage3" type="462c0819:PsiDirectoryNode" />
+              <item name="剑指" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base/project/wiki" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Lsb">
+    <configuration name="矩形覆盖" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/矩形覆盖.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Lsb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/Lsb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="二进制" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/二进制.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="打印矩阵" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/打印矩阵.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="动态规划,跳台阶" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/动态规划,跳台阶.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="stage3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/剑指" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/剑指/tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Lsb" />
+        <item itemvalue="Python.矩形覆盖" />
+        <item itemvalue="Python.动态规划,跳台阶" />
+        <item itemvalue="Python.tree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="729ab170-a221-4130-8a0f-93e91e9a03b3" name="Default Changelist" comment="" />
+      <created>1572502921334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572502921334</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-73" y="129" width="1308" height="726" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09914129" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="DB Browser" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.060240965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/base/exercise1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/day01/my_jwt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/动态规划,跳台阶.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/矩形覆盖.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/二进制.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/镜像.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/打印矩阵.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="e#86#107#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/key.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指/Lsb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

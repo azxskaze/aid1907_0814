@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test json</title>
+</head>
+
+<body>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+
+    <button id="btn">循环</button>
+    <script>
+        $('#btn').click(function () {
+            var json_arr = [
+                {
+                    "username": "王老师",
+                    "age": '38'
+                },
+                {
+                    "username": "王夫人",
+                    "age": '38'
+                }
+            ]
+            //方法一
+            $.each(json_arr, function (i, j) {
+                console.log(j.username, '今年',j.age,'岁')
+            })
+            //方法二
+            $(json_arr).each(function (i, j) {
+                console.log(j.username, '今年',j.age,'岁')
+            })
+
+
+        })
+
+
+
+    </script>
+
+
+</body>
+
+</html>

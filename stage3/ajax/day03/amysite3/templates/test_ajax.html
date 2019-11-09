@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test jq ajax</title>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+    <!-- <style>
+        #loading {
+            display: block
+        }
+    </style> -->
+</head>
+<script>
+    $(function () {
+        $('#btn').click(function () {
+            //通过json格式传参
+
+            $.ajax({
+                //url: '/ajax/test_ajax_server',
+                url: 'http://localhost:8000/ajax/test_ajax_server',
+                type: 'get',
+                dataType: 'json',
+                //是否异步,默认为true
+                async: true,
+                success: function (data) {
+                    console.log(data.msg);
+                    $('#loading').hide();
+                    $('#btn').removeAttr('diasbled');
+                },
+
+
+                error: function () {
+                    alert('Server is busy')
+                    $('#loading').hide()
+                    $('#btn').removeAttr('diasbled')
+                },
+
+                beforeSend: function () {
+                    
+
+
+                    //发送前 做这些事
+                    $('#loading').show()
+                    //锁住button禁止点击
+                    $('#btn').attr({ disabled: 'disabled' })
+                }
+            });
+        });
+    })
+
+
+</script>
+
+<body>
+
+    <span id="loading" style="display:none">加载中...</span>
+    <button id="btn">jquery ajax</button>
+</body>
+
+</html>
